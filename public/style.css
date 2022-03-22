@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+ body{
+     background: #23252C;
+ }
+ 
+ .container {
+     width: 317px;
+     margin: 10px auto;
+ }
+ 
+.info {
+    text-align: center;
+    background: #1A1B21;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 21px;
+    margin-bottom: 6.19px;
+}
+
+.job-position {
+    color: #F3BF99;
+    margin-bottom: 8.81px;
+}
+
+.website {
+    color: #F5F5F5;
+    margin-bottom: 15px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+button {
+   width: 115px;
+   height: 34px;
+   font-family: Inter;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 16px;
+   border-radius: 6px;
+   border: none;
+}
+
+.email-btn {
+    background: #FFFFFF;
+    color: #374151;
+    margin-right: 17px;
+}
+
+.linkedin-btn {
+    background: #5093E2;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin-right: 9px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button>span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.about{
+    padding: 35px;
+    background: #1A1B21;
+}
+
+.about h3 {
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.about p {
+    color: #DCDCDC;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+
+.interest {
+    padding: 19px 73px;
+    display: flex;
+    justify-content: space-between;
+    background: #161619;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
